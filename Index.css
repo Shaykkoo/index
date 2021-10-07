@@ -1,0 +1,233 @@
+body
+{
+	font-family: Verdana, Calibri, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(https://images2.alphacoders.com/106/1063352.jpg);
+	background-size: 2000px 1000px;
+	background-repeat: no-repeat;
+}
+
+nav > ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li
+{
+	list-style-type: none;
+}
+
+nav > ul> li
+{
+	float: left;
+	position: relative;
+}
+
+.submenu
+{
+	display: none;
+}
+
+nav input[type=checkbox]
+{
+	display: none;
+}
+
+.menu-mobile
+{
+	display: none;
+}
+
+nav
+{
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.15);
+	box-shadow: 1px 1px 20px white;
+
+}
+
+nav > ul::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav a
+{
+	display: inline-block;
+	text-decoration: #fff;
+}
+
+nav > ul > li > a
+{
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav > ul > li > a 
+{
+	padding: 20px 30px;
+}
+
+nav > ul > .menu-html > a
+{
+	color: #efd580;
+	text-shadow:0 0 9px #efd580;
+}
+
+nav > ul > .menu-css > a
+{
+	color: #ebbe87;
+	text-shadow:0 0 9px #ebbe87;
+}
+
+nav > ul > .menu-js > a
+{
+	color: #faac64;
+	text-shadow:0 0 9px #faac64;
+}
+
+nav > ul > .menu-contact > a
+{
+	color: #f09366;
+	text-shadow:0 0 9px #f09366;
+}
+
+nav li:hover .submenu
+{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+
+.submenu li
+{
+	border-bottom: 0px solid #CCC;
+	color: efd580;
+}
+
+.submenu li a
+{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 0 0 9px;
+	width: 270px;
+}
+
+.menu-html:hover
+{
+	border-top: 3px solid #efd580;
+	background-color: rgba(255, 255, 255, 0.10);
+}
+
+.menu-css:hover
+{
+	border-top: 3px solid #ebbe87;
+	background-color: rgba(255, 255, 255, 0.10);
+}
+
+.menu-js:hover
+{
+	border-top: 3px solid #faac64;
+	background-color: rgba(255, 255, 255, 0.10);
+}
+
+.menu-contact:hover
+{
+	border-top: 3px solid #f09366;
+	background-color: rgba(255, 255, 255, 0.10);
+}
+
+nav > ul > li:hover a
+{
+	padding: 15px 30px 20px 30px;
+}
+
+.menu-html .submenu
+{
+	background-color: rgba(234,205,130, 0.10);
+}
+
+.menu-css .submenu
+{
+	background-color: rgba(235, 190, 135, 0.10);
+}
+
+.menu-js .submenu
+{
+	background-color: rgba(250, 172, 100, 0.10);
+}
+
+
+
+.menu-html .submenu li:hover a
+{
+	color: #efd580;
+	font-weight: bold;
+}
+
+.menu-css .submenu li:hover a
+{
+	color: #ebbe87;
+	font-weight: bold;
+}
+
+.menu-js .submenu li:hover a
+{
+	color: #faac64;
+	font-weight: bold;
+}
+
+.menu-html .submenu li:hover
+{
+
+	background-color: rgba(000, 000, 000, 0.10);
+}
+
+.menu-css .submenu li:hover
+{
+	background-color: rgba(000, 000, 000, 0.10);
+}
+
+.menu-js .submenu li:hover
+{
+	background-color: rgba(000, 000, 000, 0.10);
+}
+
+
+nav input[type=checkbox]:checked - ul
+{
+	display: block;
+}
+
+@media screen and (max-width : 680px){
+	.menu-mobile {
+		display: block;
+		color: #fff;
+		background-color: rgba(29, 197,151, 0.97);
+		text-align:  center;
+		padding: 12px 0;
+	}
+	nav ul {
+		display: none;
+	}
+}
+
+	nav ul li, nav ul li a {
+		width: 100%;
+		text-align: center;
+	}
+	nav ul li a, nav ul li:hover a{
+		padding: 10px 0px 10px 0px;
+	}
+	nav li:hover .submenu{
+		display: block;
+		position: static;
+	}
