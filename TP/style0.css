@@ -1,0 +1,71 @@
+body
+{
+	background: url(https://www.wallpapertip.com/wmimgs/14-140354_black-gradient-background-hd.png);
+}
+
+h1
+{
+	text-align: center;
+	color: white;
+	font-family: calibri;
+	font-size: 1.7rem;
+}
+
+.h2
+{
+	text-align: center;
+	font-size: 2.2rem;
+	color: #F4ED90;
+	border: 1px solid black;
+	height: 50px;
+	padding: 50px;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0pDq5pD5e-I0czwHP2G1Zf3cucjLXws_bxHBwSwEHW1hGA5kBJoZygeEJIirVsnSEfYQ&usqp=CAU);
+	background-size: 100% 100%;
+}
+
+
+table
+{
+	border: 3px solid black;
+	margin: 0 1.5% 24px 25%;
+	width: 50%;
+}
+
+.th1
+{
+	text-align: center;
+	font-family: calibri;
+	font-size: 0.7rem;
+	font-weight: bold;
+	border: 1px solid;
+	width: 30%;
+	height: 20px;
+	padding: 50px;
+	background: url(https://www.flagsonline.fr/uploads/2016-6-6/420-272/france.jpg);
+	background-size: 100% 100%;
+}
+
+.th2
+{
+	border: 1px solid;
+	width: 60%;
+	font-size: 0.7rem;
+	font-family: calibri;
+	font-weight: bold;
+	vertical-align:bottom;
+	background: white;
+}
+
+.th3
+{
+	text-align: center;
+	font-family: calibri;
+	font-size: 0.7rem;	
+	font-weight: bold;
+	border: 1px solid;
+	width: 30%;
+	height: 40px;
+	padding: 50px;
+	background: url(https://www.flagsonline.fr/uploads/2016-9-2/1200-0/usa.jpg);
+	background-size: 100% 100%;
+}

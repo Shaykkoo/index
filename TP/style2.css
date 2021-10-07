@@ -1,0 +1,36 @@
+div
+{
+	border: 2px solid #B50808;
+	border-radius: 25px;
+	margin: 0 1.5% 24px 1.5%;
+}
+
+div, .a1
+{
+	margin: 0 1.5% 24px 1.5%;
+}
+
+div, .a2
+{
+	margin: 0 1.5% 24px 1.5%;
+}
+
+.a1
+{
+	border: 2px solid #02A68C;
+	background-color: #FF9595;
+	border-radius: 15px;
+	padding: 1em;
+}
+
+.a2
+{
+	border: 2px solid #02A68C;
+	border-radius: 15px;
+	padding: 1em;
+}
+
+footer
+{
+	clear: both;
+}
