@@ -4,12 +4,7 @@ body
 	margin: 0px;
 	padding: 0px;
 	background-image: url(https://images2.alphacoders.com/106/1063352.jpg);
-	min-width: 100%;
- 	min-height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
