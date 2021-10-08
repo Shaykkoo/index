@@ -1,0 +1,61 @@
+body
+{
+	font-family: Verdana, Calibri, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(https://images2.alphacoders.com/106/1063352.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Verdana, Calibri, sans-serif;
+	color: #efd580;
+	text-shadow: 1px 1px 2px #efd580, 0 0 1em #efd580, 0 0 0.2em #efd580;
+
+}
+
+li
+{
+	margin: 0 1em 0 1em;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #ebbe87;
+	text-shadow: 0 0 10px #ebbe87;
+}
+
+p
+{
+	font-family: Verdana;
+	font-size: 1.1em;
+	margin: 0 1em 0 2em;
+	padding: 15px;
+	color: #f09366;
+	text-shadow: 5px 5px 8px black;
+}
+
+.a1
+{
+	margin: 20em 1em 0 80em;
+	box-shadow: 0 0 100px  #e58b92, 0 0 100px  #e58b92, 0 0 100px  #e58b92;
+	position: relative;
+	float: right;
+}
+
+.a2
+{
+	width: 100px;
+	height: 100px;
+	margin: -8em 1em 0 2em;
+	box-shadow: 0 0 100px  #e58b92, 0 0 100px  #e58b92, 0 0 100px  #e58b92;
+	float: left;
+	transform: rotate(180deg);
+}
+
+img
+{
+	image-orientation: 6.4deg; 
+}
