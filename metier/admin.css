@@ -39,18 +39,21 @@ p
 
 .a1
 {
-	margin: 20em 1em 0 80em;
+	margin: 18em 2em 0 0;
 	box-shadow: 0 0 100px  #e58b92, 0 0 100px  #e58b92, 0 0 100px  #e58b92;
 	position: relative;
 	float: right;
+	display: inline;
 }
 
 .a2
 {
 	width: 100px;
 	height: 100px;
-	margin: 27.68em 1em 0 2em;
+	margin: 27em 0 0 2em;
 	box-shadow: 0 0 100px  #e58b92, 0 0 100px  #e58b92, 0 0 100px  #e58b92;
 	float: left;
+	position: relative;
 	transform: rotate(180deg);
+	display: inline;
 }
