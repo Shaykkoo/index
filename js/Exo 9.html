@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<script type="text/javascript">
+    function calculate(){
+
+        var a = parseInt(document.getElementById("first").value);
+        var b = parseInt(document.getElementById("second").value);
+        var c = parseInt(document.getElementById("third").value);
+        var d = parseInt(document.getElementById("fourth").value);
+        var e = parseInt(document.getElementById("fifth").value);
+        var f = parseInt(document.getElementById("sixth").value);
+
+        document.getElementById("résultat1").value=(a*b);
+        document.getElementById("résultat2").value=(c*d);
+        document.getElementById("résultat3").value=(e*f);
+
+    }
+
+    </script>
+
+
+<body>
+    <h1 >Facture en JavaScript</h1>
+<form>
+    <table border="2">
+        <tr>
+            <td>Article</td>
+            <td>Prix</td>
+            <td>Quantité</td>
+            <td>Résultat</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="article1" id="a1" placeholder="Saisir la désignation"></td>
+            <td><input type="text" name="prix1" id="first" value="0"></td>
+            <td><input type="text" name="quantité1" id="second" value="0"></td>
+            <td><input type="text" name="résultat1" id="résultat1" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="article1" id="a1" placeholder="Saisir la désignation"></td>
+            <td><input type="text" name="prix1" id="third" value="0"></td>
+            <td><input type="text" name="quantité1" id="fourth" value="0"></td>
+            <td><input type="text" name="résultat2" id="résultat2" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="article1" id="a1" placeholder="Saisir la désignation"></td>
+            <td><input type="text" name="prix1" id="fifth" value="0"></td>
+            <td><input type="text" name="quantité1" id="sixth" value="0"></td>
+            <td><input type="text" name="résultat3" id="résultat3" value=""></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="reset" value="Réinitialiser"></td>
+            <td><input onclick="calculate()" type="button" value="Calculer"></td>
+            <td></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
