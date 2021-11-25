@@ -1,5 +1,3 @@
-
-
 var rep = new Array;
 
 var faite = new Array;
@@ -50,7 +48,6 @@ function truc(){
         
                         else {
         
-                                alert("Tu as déjà répondu à cette question, Réinitialise avec le Bouton "Recommencer" en bas de la page");
         
                                 }
         
@@ -70,8 +67,6 @@ function truc(){
         
                         else { 
         
-                                alert("Tu as déjà répondu à cette question, Réinitialise avec le Bouton "Recommencer" en bas de la page");
-        
                                 }
         
                         }
@@ -82,15 +77,15 @@ function truc(){
 
 function NextLevel () {
 
-        if (score > 10) {
+        if (score == 10) {
 
-                alert("Fort");
+                alert(score + "/10. " + "Parfait");
 
                 }
 
-        if (score > 8 && score <= 10) {
+        if (score > 8 && score <= 9) {
 
-                alert(score + "/10. " + "Parfait !");
+                alert(score + "/10. " + " Presque parfait !");
 
                 }
 
@@ -126,5 +121,19 @@ score = 0;
 
 
 document.quest.reset();
+        }
+        
+function Reset() {
+
+alert("Le QCM a été reinitialisé.")
+ 
+
+faite = new Array;
+
+score = 0;
+
+
+document.quest.reset();
 
 }
+
