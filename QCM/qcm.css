@@ -1,0 +1,65 @@
+    body
+{
+	font-family: Verdana, Calibri, sans-serif;
+	margin: 0px;
+    margin-left: 100px;
+	padding: 0px;
+	background-image: url(https://images2.alphacoders.com/106/1063352.jpg);
+	background-size: cover;
+    width: 87%;
+    height: 100%;
+    position: relative;
+    min-height: 620px;
+	background-repeat: no-repeat;
+}
+
+h2
+{
+    color: #f09366;
+	text-shadow:0 0 13px #f09366;
+    font-size: 20px;
+    position: relative;
+    left: 70%;
+}
+
+.barreb
+{
+    border: 1px solid #f09366;
+    box-shadow: 0 0 20px #f09366;
+}
+
+h4
+{
+	color: #faac64;
+	text-shadow:0 0 9px #faac64;
+}
+
+.num_question
+{
+    color: #ebbe87;
+	text-shadow:0 0 9px #ebbe87;
+    font-weight: bolder;
+}
+
+.Q_questions
+{
+    color: #efd580;
+	text-shadow:0 0 9px #efd580;
+}
+
+.rep
+{
+    color: #fff;
+    text-shadow: 0 0 9px #fff;
+}
+
+.bouton
+{
+    margin-bottom: 50px;
+    background-color: #0f0f0f;
+    color: #fff;
+    position: relative;
+    top: 15px;
+    left: 70%;
+    box-shadow: 0 0 20px #fff;
+}
