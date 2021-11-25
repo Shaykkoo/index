@@ -44,13 +44,13 @@ function truc(){
         
                                 faite[question] = -1;
         
-                                alert("Faux !!   La bonne réponse était en - " + rep[question] + " -");
+                                alert(" Réponse incorrecte ");
         
                                 }
         
                         else {
         
-                                alert("Tu as déjà répondu à cette question !");
+                                alert("Tu as déjà répondu à cette question, Réinitialise avec le Bouton "Recommencer" en bas de la page");
         
                                 }
         
@@ -64,13 +64,13 @@ function truc(){
         
                                 score++;
         
-                                alert("Bonne réponse !! ");
+                                alert(" Réponse Correcte ");
         
                                 }
         
                         else { 
         
-                                alert("Tu as déjà répondu à cette question !");
+                                alert("Tu as déjà répondu à cette question, Réinitialise avec le Bouton "Recommencer" en bas de la page");
         
                                 }
         
